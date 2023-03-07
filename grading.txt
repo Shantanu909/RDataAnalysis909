@@ -1,0 +1,22 @@
+ rollno = 24L
+  name = "shantnusinh" 
+ surname = "parmar"
+ name1 = (paste(name,surname))
+per_10 = 90
+per_12 = 95
+cpi =0;
+spi = c(9.25,9.54,8.54,9.26,7.26,9.46,8.12,9.21)
+sum =0L
+ sum1=0L;
+for(i in spi)
+{
+
+ sum = sum+spi[i]
+
+ 
+}
+ avg = sum/8
+spi1 = avg
+id = list(n = name1,roll = rollno,per10 =   per_10,per12 =   per_12,SPI=  spi1)
+
+

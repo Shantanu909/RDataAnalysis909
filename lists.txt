@@ -1,0 +1,29 @@
+a =c(1,2,3,4,5)
+b=c(1,5,9,7,2)
+#artihmetic operations in R
+a+b
+a-b
+a*b
+a%%b
+a/b
+a%/%b
+#menuing the data
+name=c("Thor","iron man","Captain America","Hulk","Black widow")
+number=c(1,2,3,4,5)
+name[number]=c("Thor","iron man","Captain America","Hulk","Black widow")
+name[1]
+name[5]
+
+#lists
+vin = c(1,2,3,4,5,6,7)
+vb = c(FALSE,TRUE,TRUE,FALSE,TRUE)
+vchar = c("a","d","e","q")
+vector_list = list(vin,vchar,vb)
+vector_list
+
+#naming lists indexes
+
+book = list(genre = "Action",price = "100$", available = FALSE,ratings = 3.5)
+book$available
+book$
+
